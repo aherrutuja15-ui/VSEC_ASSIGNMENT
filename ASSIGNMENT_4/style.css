@@ -1,16 +1,32 @@
-body{
-    margin:0;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    height:100vh;
-    background:#222;
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #222;
 }
 
-.clock{
-    color:white;
-    font-size:50px;
-    border:2px solid white;
-    padding:20px 40px;
-    border-radius:10px;
+.container {
+    text-align: center;
+}
+
+.clock {
+    color: white;
+    font-size: 50px;
+    border: 2px solid white;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.date {
+    color: white;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.day {
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
 }
